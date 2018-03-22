@@ -1,7 +1,9 @@
 import React from "react";
 import Titles from  "./components/Titles";
 import Form from "./components/Form";
+import Weather from "./components/Weather";
 
+const API_KEY = "de2843400cabb101e11b7146f4f0afbe";
 
 class App extends React.Component {
   render() {
@@ -9,6 +11,7 @@ class App extends React.Component {
       <div>
         <Titles/>
         <Form/>
+        <Weather/>
       </div>
       );
   }
